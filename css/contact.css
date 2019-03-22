@@ -55,23 +55,38 @@
   }
   
   .text-container {
-      width: 600px;
-      height: 300px;
+      width: 1150px;
+      height: 200px;
       color: black;
       flex-direction: column;
       background-color: forestgreen;
       border: 15px solid cadetblue;
+      border-radius: 30px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       margin-top: 10px;
   }
   
-  footer nav {
-      width: 100%;
+  header nav {
       display: flex;
       justify-content: space-between;
       align-items: auto;
       padding: 20px 2%;
       font-size: 20px;
+      width: 1150px;
+      height: 50px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      background-color: red;
+      animation-name: example;
+      animation-duration: 14s;
+      animation-iteration-count: infinite;
+  }
+  @keyframes example {
+    0%   {background-color: purple; left:0px; top:0px;}
+    25%  {background-color: yellow; left:0px; top:200px;}
+    50%  {background-color: green; left:200px; top:200px;}
+    75%  {background-color: yellow; left:200px; top:0px;}
+    100% {background-color: green; left:0px; top:0px;}
   }
