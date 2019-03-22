@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    border: 5px solid black;
+    border-radius: 25px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 12px;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: green;
+  }
+  
+  .container {
+    border-radius: 70px;
+    background-color: #34A299;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .text-container {
+      width: 600px;
+      height: 300px;
+      color: black;
+      flex-direction: column;
+      background-color: forestgreen;
+      border: 15px solid cadetblue;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 10px;
+  }
+  
+  footer nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: auto;
+      padding: 20px 2%;
+      font-size: 20px;
+  }
